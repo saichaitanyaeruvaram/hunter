@@ -75,6 +75,17 @@ hunter_add_version(
     477525bae6a5395f61b470d25b47163a4048dab6
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    ffmpeg
+    VERSION
+    n2.8.1
+    URL
+    "https://github.com/hunter-packages/FFmpeg/archive/n2.8.1.tar.gz"
+    SHA1
+    4bb08bce439925620704c514315e2fdcc4d6bd0e
+)
+
 # GCC 4.8 + examples/OpenCV-ffmpeg link error
 hunter_configuration_types(ffmpeg CONFIGURATION_TYPES Release)
 
